@@ -1,3 +1,5 @@
+File description:
+
 build_features.py - This file is used to perform Feature Engineering and extract features from the dataset.
 
 ml_modelling.py - Includes code for Data Cleaning, Training, Cross-validation and Testing.
@@ -6,7 +8,7 @@ three_points_extracted - It is a text file containing the X, Y and Z co-ordinate
 
 Semantic Classificatin of Point Cloud using Machine Learning.pdf - It is a report containing the description of the whole project.
 
-Due to size constraints, the datasets are not uploaded as a part of this git repository. In order to run the build_features.py/ml_modelling.py, you need to download the datasets from the linke below: 
+Due to size constraints, the datasets are not uploaded as a part of this git repository. In order to run the build_features.py/ml_modelling.py, you need to download the datasets from the link below: 
 
 (https://exchangelabsgmu-my.sharepoint.com/:f:/g/personal/ckasula_masonlive_gmu_edu/EgCzw1QVCJFKtL8-_JAAtCUBwwXlZZaon49FSBj4k_R3og?e=rVwOpp) 
 
@@ -18,5 +20,10 @@ random_forest_model.sav     - A trained random forest model saved into a .pkl fi
 Vaihingen3D_Traininig.csv   - The raw dataset extracted directly from the source (https://www2.isprs.org/commissions/comm2/wg4/benchmark/3d-semantic-labeling/). 
 
 
+Execution time:
 
+After placing the datasets and the codes in a single folder, you can run the ml_modelling.py to train, test and save the random forest model. You dont have to run the build_features.py file, as its product is already provided as dataset_500000.csv. 
 
+ml_modelling.py takes 30-45 mins to get executed.
+
+build_features.py takes around 5 days to generate dataset_500000.csv when executed 24x7.
