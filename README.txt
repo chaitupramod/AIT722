@@ -6,4 +6,17 @@ three_points_extracted - It is a text file containing the X, Y and Z co-ordinate
 
 Semantic Classificatin of Point Cloud using Machine Learning.pdf - It is a report containing the description of the whole project.
 
+Due to size constraints, the datasets are not uploaded as a part of this git repository. In order to run the build_features.py/ml_modelling.py, you need to download the datasets from the linke below: 
+
+(https://exchangelabsgmu-my.sharepoint.com/:f:/g/personal/ckasula_masonlive_gmu_edu/EgCzw1QVCJFKtL8-_JAAtCUBwwXlZZaon49FSBj4k_R3og?e=rVwOpp) 
+
+The description of the files in the above link is as below.
+
+cleaned_dataset_500001.csv  - A cleaned pre-processed dataset of 500,000 records of the Vaihingen dataset.
+dataset_500000.csv          - A dataset of 500,000 records from the Vaihingen dataset which consists of the hand-built features. This is a product of the build_features.py file.
+random_forest_model.sav     - A trained random forest model saved into a .pkl file.
+Vaihingen3D_Traininig.csv   - The raw dataset extracted directly from the source (https://www2.isprs.org/commissions/comm2/wg4/benchmark/3d-semantic-labeling/). 
+
+
+
 
