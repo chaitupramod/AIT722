@@ -23,7 +23,3 @@ Vaihingen3D_Traininig.csv   - The raw dataset extracted directly from the source
 Execution time:
 
 After placing the datasets and the codes in a single folder, you can run the ml_modelling.py to train, test and save the random forest model. You dont have to run the build_features.py file, as its product is already provided as dataset_500000.csv. 
-
-ml_modelling.py takes 30-45 mins to get executed.
-
-build_features.py takes around 5 days to generate dataset_500000.csv when executed 24x7.
